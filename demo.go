@@ -14,6 +14,7 @@ type Config struct {
 	Headers map[string]string `json:"headers,omitempty"`
 }
 
+
 // CreateConfig creates the default plugin configuration.
 func CreateConfig() *Config {
 	return &Config{
