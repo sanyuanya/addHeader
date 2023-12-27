@@ -1,4 +1,4 @@
-package plugindemo_test
+package addHeader_test
 
 import (
 	"context"
@@ -6,7 +6,7 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/traefik/plugindemo"
+	"github.com/sanyuanya/addHeader"
 )
 
 func TestDemo(t *testing.T) {
